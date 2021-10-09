@@ -6,9 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script defer src="script.js"></script>
 </head>
 <body>
-    
+    <form id="form" onsubmit="return false">
+        <h1>Weather App!</h1>
+        <img class="weatherGif" src="images/sun.jpg" alt="sun">
+        <label for="location">Enter a city:</label>
+        <input type="text" name="location" id="location">
+        <button id="getWeatherButton">Get Weather</button>
+        <img class="weatherGif" src="images/sun.jpg" alt="sun">
+        <p id="results"></p>
+    </form>
 </body>
 </html>

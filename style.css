@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+#form{
+    display: block;
+    width:600px;
+    margin: auto auto;
+    border: solid black;
+    padding: 70px 0;
+    text-align: center;
+}
+.weatherGif{
+    width: 100px;
+}
